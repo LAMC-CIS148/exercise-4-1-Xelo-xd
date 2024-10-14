@@ -4,9 +4,15 @@ body {
     font-size: 100%;
 }
 
+header h2{
+	font size: 170%
+	color: #800000
+	pixels:30 pixels
 /* the styles for the header */
 header img {
+	font size:75%
 	float: left;
+
 }
 
 /* the styles for the main content */
