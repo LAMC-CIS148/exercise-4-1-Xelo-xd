@@ -1,19 +1,33 @@
+:root{
+	--global-color-1: #800000;
+}
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	margin-left: 10px
 }
-
+a:focus, a:hover{
+	font-style: italics;
+}
 header h2{
-	font size: 170%
+	font-size: 170%
 	color: #800000
-	pixels:30 pixels
+	pixels:30 px
+}
+header h3{
+	font-size: 130%
+	font-style: italics;
+	text-indent: 30px;
+}
 /* the styles for the header */
 header img {
-	font size:75%
+
 	float: left;
 
 }
+.shadow {
+	text-shadow: 2px 2px 2px var(--global-color-1);
 
 /* the styles for the main content */
 main {
